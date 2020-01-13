@@ -1,8 +1,36 @@
 body{
-
-};
-#big box {
-  height: 50px;
-  width: 50px;
+background-color: #03b1fc;
+ background-repeat: no-repeat;
+}
+#bigbox{
+  height: 230px;
+  width: 400px;
   background-color: red; 
-};
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+#smallbox{
+  height: 150px;
+  width: 300px;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: serif;
+  font-size: 40px;
+  text-align: center;
+}
+#title{
+  background-color: yellow;
+  height: 35px;
+  width: 58px;
+  margin-left: auto;
+  margin-right: auto;
+  font-famliy: serif;
+  font-size: 25px;
+}
+#days{
+ padding: 30px 20px;
+  font-size: 15px;                   
+}
