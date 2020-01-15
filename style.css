@@ -1,5 +1,5 @@
 body{
-background-color: #03b1fc;
+background-color: purple;
  background-repeat: no-repeat;
 }
 #bigbox{
@@ -10,11 +10,12 @@ background-color: #03b1fc;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  border-radius: 25px;
 }
 #smallbox{
   height: 150px;
   width: 300px;
-  background-color: blue;
+  background-color: #4293f5;
   margin-left: auto;
   margin-right: auto;
   font-family: serif;
@@ -22,7 +23,7 @@ background-color: #03b1fc;
   text-align: center;
 }
 #title{
-  background-color: yellow;
+  background-color: purple;
   height: 35px;
   width: 58px;
   margin-left: auto;
@@ -30,7 +31,10 @@ background-color: #03b1fc;
   font-famliy: serif;
   font-size: 25px;
 }
-#days{
- padding: 30px 20px;
-  font-size: 15px;                   
+#button{
+padding: 10px 20px;
+  
+}
+#Time{
+ padding: 50px;
 }
