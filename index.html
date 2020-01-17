@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <title> My clock </title>
+<link href="style.css" type="text/css" rel="stylesheet">
 <body> 
   <div id="bigbox"> 
  
@@ -8,11 +9,29 @@
       <div id="smallbox"> 
         
         <div id="Time"> </div>   
+      
+ <button id="button" onclick="Bk('red');">Red pill</button>
+        <button id="button" onclick="Bk('#4293f5');">Blue pill</button>
+
       </div>
-  </div>
- <button type="button" onclick="Bk('red');">Red pill</button>
-        <button type="button" onclick="Bk('#4293f5');">Blue pill</button>
-  
+  </div>>
     </div>
+    <script src="app.js" charset="utf-8">
+function Time(){
+  var date = new Date();
+  var hour = date.getHours();
+  var minutes = date.getMinutes();
+  var seconds = date.getSeconds();
+  document.getElementById("Time").innerText = hour + " : " + minutes + " : " + seconds;
+  var t = setTimeout(function(){ Time() }, 1000);
+};
+
+Time();
+
+function Bk(color){
+        document.body.style.background = color;
+};
+
+    </script>
 </body> 
 </html> 
